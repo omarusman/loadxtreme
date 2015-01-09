@@ -2,6 +2,13 @@
 ----------------------
 A simple and unofficial PHP library for Loadxtreme loading service. This will allow you to integrate Loadxtreme service to your web application.
 
+Installation:
+------
+Add this to your *composer.json* file:
+
+    "omarusman/loadxtreme": "dev-master"
+Then do a *composer install* or *composer update* command.
+
 Usage:
 ------
 
