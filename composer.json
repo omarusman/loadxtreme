@@ -1,0 +1,18 @@
+{
+    "name": "omarusman/loadxtreme",
+    "description": "A PHP library for LoadXtreme service.",
+    "authors": [
+        {
+            "name": "Omar Usman",
+            "email": "hello@omarusman.com"
+        }
+    ],
+    "require": {
+		"fabpot/goutte": "2.0.2"
+	},
+    "autoload": {
+        "psr-4": {
+            "Loadxtreme\\": "src/loadxtreme"
+        }
+    }
+}
