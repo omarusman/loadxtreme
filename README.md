@@ -22,13 +22,15 @@ Usage:
         
         if ($response['status'] == true) {
 	        echo 'Successfully loaded.';
+        } else {
+        	echo $response['message'];
         }
     }catch (Exception $e) {
         echo $e->getMessage();
     }
     #END OF PHP FILE
 
-Parameters
+Parameters:
 ----------
  - **uid** - Your Loadxtreme ID No.
  - **pik** - Your Loadxtreme PIK.
