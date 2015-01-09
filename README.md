@@ -21,6 +21,14 @@ Usage:
     }
     #END OF PHP FILE
 
+Parameters
+----------
+ - **uid** - Your Loadxtreme ID No.
+ - **pik** - Your Loadxtreme PIK.
+ - **pc** -  A valid Loadxtreme Product Code. Refer to your Product Code Brochure for more info.
+ - **cellno** - The cellphone no where you want to send the load.
+ - **email** - Your email where you want Loadxtreme to send any notification message.
+
 
 Response:
 --------
